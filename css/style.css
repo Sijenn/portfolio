@@ -7,31 +7,23 @@ h1 {
 }
 h2 {
   color: blue;
-  font-size: 40px;
 }
 h3 {
   color: maroon;
   font-size: 40px;
 }
-body{
-  background-image: url(images/index.jpeg);
-background-repeat: no-repeat;
-background-size: cover;
-}
 
-p{
-  font-size: 30px;
-}
 .hobbies {
   color: black;
-  font-size: 40px;
-}
-.education {
-  font-size: 40px;
 }
 @@media screen and (min-width: 480px){
   body {
     background-color: black;
   }
 
+}
+
+.import{
+  float: left;
+  
 }
