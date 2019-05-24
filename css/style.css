@@ -19,11 +19,14 @@ h3 {
 @@media screen and (min-width: 480px){
   body {
     background-color: black;
+    width: 220px;
+    float: left;
+    padding: 15px
   }
 
 }
 
 .import{
   float: left;
-  
+
 }
