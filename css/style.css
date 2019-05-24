@@ -29,3 +29,9 @@ p{
 .education {
   font-size: 40px;
 }
+@@media screen and (min-width: 480px){
+  body {
+    background-color: black;
+  }
+
+}
