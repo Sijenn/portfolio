@@ -14,8 +14,9 @@ h3 {
   font-size: 40px;
 }
 body{
-  background-image: url
-
+  background-image: url(images/index.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 p{
