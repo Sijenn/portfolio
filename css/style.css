@@ -29,7 +29,7 @@ h3 {
 }
 
 .import {
-  float: left;
+  text-align: center;
 }
 
 .test-box {
@@ -39,3 +39,11 @@ h3 {
 .Education p {
   font: blue;
 }
+.nav {
+  background-color: black;
+  font-size: 30px
+}
+body {
+  background-image: image (url (/images/jen.jpg);
+}
+img
