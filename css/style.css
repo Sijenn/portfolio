@@ -1,9 +1,6 @@
-.picture {
-  float: right;
-}
-
 h1 {
   color: maroon;
+  
 }
 
 h2 {
@@ -22,7 +19,7 @@ h3 {
 @@media screen and (min-width: 480px) {
   body {
     background-color: black;
-    width: 220px;
+    width: 800px;
     float: left;
     padding: 15px
   }
@@ -30,20 +27,32 @@ h3 {
 
 .import {
   text-align: center;
+  min-height: auto;
+  border-radius: 50%;
+
 }
 
 .test-box {
   border-top: 2px solid maroon;
-}
-
-.Education p {
-  font: blue;
 }
 .nav {
   background-color: black;
   font-size: 30px
 }
 body {
-  background-image: image (url (/images/jen.jpg);
+  background-image: image (url (../images/jen.jpg);
+
 }
-img
+
+.pic {
+  vertical-align: middle;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  text-align: center;
+}
+.hobbies {
+  color: yellow;
+
+}
+h1
