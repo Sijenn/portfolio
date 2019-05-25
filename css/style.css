@@ -1,6 +1,5 @@
 h1 {
   color: maroon;
-  
 }
 
 h2 {
@@ -12,11 +11,7 @@ h3 {
   font-size: 40px;
 }
 
-.hobbies {
-  color: black;
-}
-
-@@media screen and (min-width: 480px) {
+@@media screen and (min-width: 800px) {
   body {
     background-color: black;
     width: 800px;
@@ -29,30 +24,45 @@ h3 {
   text-align: center;
   min-height: auto;
   border-radius: 50%;
-
 }
 
 .test-box {
   border-top: 2px solid maroon;
 }
+
 .nav {
   background-color: black;
   font-size: 30px
 }
-body {
-  background-image: image (url (../images/jen.jpg);
-
-}
-
 .pic {
-  vertical-align: middle;
-  width: 50%;
-  height: 50%;
-  border-radius: 50%;
-  text-align: center;
-}
-.hobbies {
-  color: yellow;
+    vertical-align: middle;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    text-align: center;
+  }
 
+body h1, h2, h3 {
+    font-family: "maroon", sans-serif;
+  }
+
+  .intro {
+    background-image: url("image/jenn's.webp");
+    background-position: center;
+    background-size: cover;
+    float: right;
+  }
+.mypic {
+  border-radius: 50%;
 }
-h1
+body html {
+  height: 100%
+}
+.intro {
+  background-image: linear-gradient(rgba(0, 0, 0.5);
+  height:50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
