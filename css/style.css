@@ -1,4 +1,3 @@
-
 h1 {
   color: maroon;
 }
@@ -11,6 +10,7 @@ h1 {
     padding: 30px
   }
 }
+
 .nav {
   background-color: skyblue;
   font-size: 50px;
@@ -19,9 +19,28 @@ h1 {
 }
 
 .mypic {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('images/jenn.webp');
-  min-height: 100%;
+  border-radius: 50%;
+  width: 40%;
+
+}
+
+.ed {
+  background-color: red;
+}
+.about{
+  padding: 6px;
+  margin: 20px;
+  background-color: skyblue;
+}
+
+.edu {
+  padding: 6px;
+  margin: 20px;
+  background-color: pink;
+}
+
+.cont {
+  padding: 6px;
+  margin: 20px;
+  background-color: lightgreen;
 }
