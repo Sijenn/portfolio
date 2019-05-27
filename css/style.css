@@ -19,9 +19,10 @@ h1 {
 }
 
 .mypic {
-  border-radius: 50%;
+border-radius: 50px;
   width: 40%;
-
+  position: center
+  border: 2px solid black;
 }
 
 .ed {
@@ -43,4 +44,15 @@ h1 {
   padding: 6px;
   margin: 20px;
   background-color: lightgreen;
+}
+
+.background {
+  background: url('../images/black.jpg');
+  background-size: cover;
+  background-position: center center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  position: top;
+  text-align: center;
 }
