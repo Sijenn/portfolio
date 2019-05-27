@@ -2,7 +2,7 @@ h1 {
   color: maroon;
 }
 
-@@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   body {
     margin-left: 0;
     background-color: black;
@@ -17,10 +17,9 @@ h1 {
 }
 
 .mypic {
-border-radius: 50px;
-  width: 40%;
-  position: center;
-  border: 2px solid black;
+  border-radius: 50px;
+  width: 50%;
+  border-radius: 50%;
 }
 
 .ed {
@@ -29,32 +28,39 @@ border-radius: 50px;
 .about{
   padding: 6px;
   margin: 20px;
-  background-color: skyblue;
 }
 
 .edu {
   padding: 6px;
   margin: 20px;
-  background-color: pink;
 }
 
 .cont {
   padding: 6px;
   margin: 20px;
-  background-color: lightgreen;
 }
 
-.background {
-  background: url('../images/black.jpg');
-  background-size: cover;
-  background-position: center center;
-  align-items: center;
-  display: flex;
-  height: 100vh;
-  position: top;
-  text-align: center;
-}
 
 body {
   background-image: url(images.jpg);
+}
+
+.font{
+  background-image: url("images/j.jpg")
+}
+
+ul{
+  list-style-type: none;
+}
+
+.container{
+  background: linear-gradient(to right, #085078, #85d8ce); 
+}
+
+h1{
+  text-align: center;
+}
+
+li a{
+  color:whitesmoke;
 }
