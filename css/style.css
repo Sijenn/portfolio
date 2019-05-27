@@ -2,12 +2,10 @@ h1 {
   color: maroon;
 }
 
-@@media screen and (max-width: 800px) {
+@@media screen and (max-width: 600px) {
   body {
+    margin-left: 0;
     background-color: black;
-    width: 600px;
-    float: left;
-    padding: 30px
   }
 }
 
@@ -21,12 +19,12 @@ h1 {
 .mypic {
 border-radius: 50px;
   width: 40%;
-  position: center
+  position: center;
   border: 2px solid black;
 }
 
 .ed {
-  background-color: red;
+  background-color: skyblue;
 }
 .about{
   padding: 6px;
@@ -55,4 +53,8 @@ border-radius: 50px;
   height: 100vh;
   position: top;
   text-align: center;
+}
+
+body {
+  background-image: url(images.jpg);
 }
