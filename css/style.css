@@ -19,30 +19,21 @@ h1 {
 .mypic {
   border-radius: 50px;
   width: 50%;
+  height: 70%;
   border-radius: 50%;
+  text-align: center;
 }
 
-.ed {
-  background-color: skyblue;
-}
+
 .about{
   padding: 6px;
   margin: 20px;
 }
 
-.edu {
-  padding: 6px;
-  margin: 20px;
-}
 
 .cont {
   padding: 6px;
   margin: 20px;
-}
-
-
-body {
-  background-image: url(images.jpg);
 }
 
 .font{
@@ -65,4 +56,8 @@ h1{
 
 li a{
   color:whitesmoke;
+}
+
+.jenn{
+  float: right;
 }
