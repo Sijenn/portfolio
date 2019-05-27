@@ -55,10 +55,12 @@ ul{
 
 .container{
   background: linear-gradient(to right, #085078, #85d8ce); 
+
 }
 
 h1{
   text-align: center;
+  color:white;
 }
 
 li a{
